@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok fitness</title>
+</head>
+<link rel="stylesheet" href="">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* css reset */
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgb(178, 178, 212);
+        margin:0px;
+        padding:0px;
+        background:url('gym1.jpg');
+        /* border: none; */
+        /* top:18px; */
+    }
+    .left img{
+        width: 75px;
+        
+    }
+    .left{
+        display: inline-block;
+        /* border:2px solid red; */
+        position: absolute;
+        left: 34px;
+        top:18px;
+        border: none;
+        font-size: medium;
+
+    }
+    .left div{
+        text-align: center;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        color:aliceblue;
+      
+        /* font-size: 5px; */
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding:34px 23px ;
+        font-size: 15px;
+
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+        
+
+    }
+    .mid{
+        display:block;
+        /* border :2px solid green; */
+        width:37%;
+        margin:24px auto;
+        top: 18px;
+        /* border: none; */
+        /* position: absolute; */
+    }
+    .right{
+        position: absolute;
+        right:34px;
+        top:18px;
+        display: inline-block;
+        /* border:2px solid white; */
+        border: none;
+
+    }
+    .btn{
+        margin: 0px 9px;
+        background:black;
+        color: aliceblue;
+        padding: 4px 14px;
+        border: 2px solid red;
+        border-radius: 10px;
+        font-size: medium;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: brown;
+    }
+    .container{
+        border: 2px solid red;
+        margin:45px 35px;
+        padding:56px 45px;
+        width: 33%;
+        border-radius: 8px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 345px;
+        padding: 6px;
+        border: 2px solid green;
+        margin: 3px auto;
+        font-size: 12px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 33%;
+        margin: auto;
+        text-align: center;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo gym.jpg" alt="">
+            <div>alok fitness</div>
+        </div>
+        <!-- mid box for nacbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"class="active">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons like visit -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email now</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym of kolkata now</h1>
+        <form action="no action.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
